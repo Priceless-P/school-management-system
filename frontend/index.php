@@ -1,3 +1,0 @@
-<h2>Hello</h2>
-<a href="register.php">Register</a>
-<a href="login.php">Login</a>

@@ -1,12 +1,12 @@
-<script src="../vendor/global/global.min.js"></script>
-<script src="../vendor/chart.js/Chart.bundle.min.js"></script>
-<script src="../vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+<script src="vendor/global/global.min.js"></script>
+<script src="vendor/chart.js/Chart.bundle.min.js"></script>
+<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
 
 <!-- Apex Chart -->
-<script src="../vendor/apexchart/apexchart.js"></script>
+<script src="vendor/apexchart/apexchart.js"></script>
 
-<script src="../vendor/bootstrap-datetimepicker/js/moment.js"></script>
-<script src="../vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
+<script src="vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 
 <!-- Chart piety plugin files -->
 <script src="../vendor/day-fullcalendar/main.min.js"></script>
