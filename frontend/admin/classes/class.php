@@ -73,7 +73,7 @@ require_once "../../../functions/getClass.php";
                                      aria-labelledby="nav-about-tab">
                                     <div class="about-content">
                                         <h4>About This class</h4>
-                                        <p>L<?php echo $class-details; ?>
+                                        <p><?php echo $class->details; ?>
                                     </div>
                                 </div>
 

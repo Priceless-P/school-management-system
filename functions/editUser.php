@@ -1,8 +1,7 @@
 <?php
 
-use classes\Admin\Admin;
 
-require_once '../classes/Admin.php';
+require_once '../classes/AdminClass.php';
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
     $data = [
@@ -12,12 +11,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
         "email"=> trim( $_POST['email']),
         "bio" => trim($_POST['bio'])
     ];
-    $edit = new Admin();
+    $edit = new AdminClass();
     return $edit->updateUser($data);
 }
 else
 {
-    $edit = new Admin();
+    $edit = new AdminClass();
     $id = $_GET['id'];
     $student = $edit->find($id);
     return $student;
