@@ -1,8 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GetSkills  : GetSkills Online Learning Admin Bootstrap 5 Template" />
+    <meta property="og:title" content="GetSkills  : GetSkills Online Learning  Admin Bootstrap 5 Template" />
+    <meta property="og:description" content="GetSkills  : GetSkills Online Learning  Admin Bootstrap 5 Template" />
+    <meta property="og:image" content="social-image.html" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- PAGE TITLE HERE -->
+    <title>GetSkills Online Learning Admin</title>
+
+    <!-- FAVICONS ICON -->
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+    <link href="../vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Style css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!--*******************
+    Preloader start
+********************-->
+<div id="preloader">
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--*******************
+    Preloader end
+********************-->
+
+<!--**********************************
+    Main wrapper start
+***********************************-->
+<div id="main-wrapper">
+    
 <?php
-require_once "../partials/header.php";
-require_once "../partials/navbar.php";
+require_once "partials/navbar.php";
+require_once "partials/sidebar.php";
 ?>
+
 <div class="content-body">
+    <?php if (isset($_SESSION['message'])){
+                echo $_SESSION['message'];
+                }
+                ?>
             <!-- row -->
 			<div class="container-fluid">
 				<div class="row">
@@ -210,6 +263,42 @@ require_once "../partials/navbar.php";
             </div>
         </div>
 <?php
-require_once "../partials/footer.php";
-require_once "../partials/scripts.php";
+require_once "partials/footer.php";
 ?>
+<script src="../vendor/global/global.min.js"></script>
+<script src="../vendor/chart.js/Chart.bundle.min.js"></script>
+<script src="../../vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+
+<!-- Apex Chart -->
+<script src="../vendor/apexchart/apexchart.js"></script>
+
+<script src="../vendor/bootstrap-datetimepicker/js/moment.js"></script>
+<script src="../vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- Chart piety plugin files -->
+<script src="../vendor/day-fullcalendar/main.min.js"></script>
+<script src="../vendor/peity/jquery.peity.min.js"></script>
+
+<!-- Dashboard 1 -->
+<script src="../js/dashboard/instructor-dashboard.js"></script>
+
+<script src="../js/custom.js"></script>
+<script src="../js/dlabnav-init.js"></script>
+<script src="../js/demo.js"></script>
+<script src="../js/styleSwitcher.js"></script>
+<script>
+    $(function () {
+        $('#datetimepicker').datetimepicker({
+            inline: true,
+        });
+    });
+
+    $(document).ready(function(){
+        $(".booking-calender .fa.fa-clock-o").removeClass(this);
+        $(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
+    });
+</script>
+
+</body>
+
+</html>
