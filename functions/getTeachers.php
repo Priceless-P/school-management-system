@@ -1,7 +1,5 @@
 <?php
 
-use classes\Admin\Admin;
-
-require_once '../classes/Admin.php';
-$students = new Admin();
+require_once '../classes/AdminClass.php';
+$students = new AdminClass();
 return $students->getTeachers();

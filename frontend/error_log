@@ -1,6 +1,0 @@
-[29-Oct-2022 00:45:54 UTC] PHP Warning:  require_once(../partials/header.php): failed to open stream: No such file or directory in /home/priscapr/public_html/school-management/frontend/register.php on line 2
-[29-Oct-2022 00:45:54 UTC] PHP Fatal error:  require_once(): Failed opening required '../partials/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/priscapr/public_html/school-management/frontend/register.php on line 2
-[29-Oct-2022 00:47:07 UTC] PHP Warning:  require_once(../partials/header.php): failed to open stream: No such file or directory in /home/priscapr/public_html/school-management/frontend/register.php on line 2
-[29-Oct-2022 00:47:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../partials/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/priscapr/public_html/school-management/frontend/register.php on line 2
-[29-Oct-2022 00:48:13 UTC] PHP Warning:  require_once(../partials/header.php): failed to open stream: No such file or directory in /home/priscapr/public_html/school-management/frontend/register.php on line 2
-[29-Oct-2022 00:48:13 UTC] PHP Fatal error:  require_once(): Failed opening required '../partials/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/priscapr/public_html/school-management/frontend/register.php on line 2

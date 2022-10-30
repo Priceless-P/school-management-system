@@ -1,6 +1,5 @@
 <?php
 
-use classes\Home\Home;
 
 require_once '../classes/Home.php';
 if($_SERVER["REQUEST_METHOD"]=="POST") {
