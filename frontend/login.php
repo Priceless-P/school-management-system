@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from getskills.dexignzone.com/xhtml/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Oct 2022 00:58:58 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,12 +18,12 @@
     <title>GetSkills Online Learning Admin</title>
 
     <!-- FAVICONS ICON -->
-    <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
-    <link href="../vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
-    <link href="../vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link href="vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+    <link href="vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Style css -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -111,3 +110,89 @@
             </defs>
         </svg>
     </div>
+
+    <body class="vh-100">
+    <div class="authincation h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="authincation-content">
+                        <div class="row no-gutters">
+                            <div class="col-xl-12">
+                                <div class="auth-form">
+									<div class="text-center mb-3">
+										<a href="/"><img src="images/logo-full.png" alt=""></a>
+									</div>
+                                    <h4 class="text-center mb-4">Sign in to your account</h4>
+                                    <form method ="POST"action="../../functions/login">
+                                        
+                                        <div class="mb-3">
+                                            <label class="mb-1"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" placeholder="hello@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="mb-1"><strong>Password</strong></label>
+                                            <input type="password" class="form-control" value="Password">
+                                        </div>
+                                        <div class="text-center mt-4">
+                                            <button type="submit" class="btn btn-primary btn-block">Sign me in</button>
+                                        </div>
+                                    </form>
+                                    <div class="new-account mt-3">
+                                        <p>No accont? <a class="text-primary" href="register.php">Sign up</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="footer">
+    <div class="copyright">
+        <p>Copyright © Designed   by <a href="https://themeforest.net/user/hugebinary" target="_blank">HugeBinary</a> 2022</p>
+    </div>
+</div>
+</div>
+
+<script src="vendor/global/global.min.js"></script>
+<script src="vendor/chart.js/Chart.bundle.min.js"></script>
+<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+
+<!-- Apex Chart -->
+<script src="vendor/apexchart/apexchart.js"></script>
+
+<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
+<script src="vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- Chart piety plugin files -->
+<script src="vendor/day-fullcalendar/main.min.js"></script>
+<script src="vendor/peity/jquery.peity.min.js"></script>
+
+<!-- Dashboard 1 -->
+<script src="js/dashboard/instructor-dashboard.js"></script>
+
+<script src="js/custom.js"></script>
+<script src="js/dlabnav-init.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/styleSwitcher.js"></script>
+<script>
+    $(function () {
+        $('#datetimepicker').datetimepicker({
+            inline: true,
+        });
+    });
+
+    $(document).ready(function(){
+        $(".booking-calender .fa.fa-clock-o").removeClass(this);
+        $(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
+    });
+</script>
+
+</body>
+
+</html>
+
+
